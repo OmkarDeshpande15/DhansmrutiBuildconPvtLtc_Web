@@ -1,0 +1,655 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Construction Company - Home</title>
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <img src="images/logo.png" alt="Dhansruti Group Logo">
+      </div>
+      <div class="loader-line">
+        <div class="loader-line-progress"></div>
+      </div>
+      <div class="loader-text">Loading ...</div>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="home.html" class="logo">
+        <img src="images/logo.png" alt="Dhansruti Group Logo">
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="home.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="careers.html" class="nav-link">Careers</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="events.html" class="nav-link">Event</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+        
+  </nav>
+
+
+
+  <main>
+    <!-- home slider section starts -->
+    <section id="hero" class="hero-section">
+      <div class="slider">
+        <div class="slides">
+          <div class="slide active"
+            style="background-image: url('images/beautiful-view-construction-site-city-sunset.jpg');">
+            <div class="slide-text">
+              <h1>BUILDING BETTER TOMORROW</h1>
+              <p>Innovative construction solutions delivered with quality and precision.</p>
+            </div>
+          </div>
+          <div class="slide" style="background-image: url('images/13333.jpg');">
+            <div class="slide-text">
+              <h1>EXPERTISE YOU CAN TRUST</h1>
+              <p>Delivering projects on time with exceptional craftsmanship.</p>
+            </div>
+          </div>
+          <div class="slide" style="background-image: url('images/pexels-david-kanigan-239927285-28888659.jpg');">
+            <div class="slide-text">
+              <h1>INNOVATIVE DESIGNS </h1>
+              <p>Shaping skylines with sustainable and modern architecture.</p>
+            </div>
+          </div>
+        </div>
+        <button class="slider-arrow left" aria-label="Previous Slide" type="button">
+          <img width="40" height="40" src="https://img.icons8.com/ios/100/back--v1.png" alt="Previous" />
+        </button>
+        <button class="slider-arrow right" aria-label="Next Slide" type="button">
+          <img width="40" height="40" src="https://img.icons8.com/ios/100/forward--v1.png" alt="Next" />
+        </button>
+        <div class="slider-dots"></div>
+      </div>
+    </section>
+    <!-- home slider section ends -->
+
+    <!-- stats section starts -->
+    <!-- <div class="stats-bar">
+        <div class="stat-item">
+          <h3 data-target="10">0</h3>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-item">
+          <h3 data-target="100">0</h3>
+          <p>Projects Completed</p>
+        </div>
+        <div class="stat-item">
+          <h3 data-target="500">0</h3>
+          <p>Happy Clients</p>
+        </div>
+        <div class="stat-item">
+          <h3 data-target="50">0</h3>
+          <p>Team Members</p>
+        </div>
+      </div> -->
+
+
+    <!-- sectors section starts -->
+    <section class="sectors-section scroll-reveal">
+      <!-- Section Header -->
+      <div class="section-header">
+        <h2 class="section-title">OUR SECTORS</h2>
+
+        <!-- <a href="#all-sectors" class="browse-link">
+                Browse all sectors
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                </svg>
+            </a> -->
+      </div>
+
+      <!-- Sectors Grid -->
+      <div class="sectors-grid">
+        <!-- Textile Card -->
+
+        <div class="sector-card scroll-reveal" data-sector="textile" data-link="textile.html">
+
+          <img src="images/textile.webp" class="sector-bg">
+
+          <div class="sector-arrow">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </div>
+
+          <div class="sector-content">
+            <h3 class="sector-title">Textile</h3>
+            <p class="sector-description">
+              Expert construction of state-of-the-art textile manufacturing facilities
+              with modern infrastructure and efficient production environments.
+            </p>
+          </div>
+        </div>
+
+        <!-- Buildcon Card -->
+        <div class="sector-card scroll-reveal" data-sector="buildcon" data-link="buildcon.html">
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=1000&fit=crop"
+            alt="Buildcon Sector" class="sector-bg">
+
+          <div class="sector-arrow">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </div>
+
+          <div class="sector-content">
+            <h3 class="sector-title">Buildcon</h3>
+            <p class="sector-description">
+              Comprehensive building construction services for commercial,
+              residential, and industrial projects with quality craftsmanship.
+            </p>
+          </div>
+        </div>
+
+        <!-- Ginning Card -->
+        <div class="sector-card scroll-reveal" data-sector="ginning" data-link="ginning.html">
+          <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=1000&fit=crop"
+            alt="Ginning Sector" class="sector-bg">
+
+          <div class="sector-arrow">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </div>
+
+          <div class="sector-content">
+            <h3 class="sector-title">Ginning</h3>
+            <p class="sector-description">
+              Specialized construction of cotton ginning mills and processing plants
+              with advanced machinery installation and safety standards.
+            </p>
+          </div>
+        </div>
+
+        <!-- Tunnel Construction Card -->
+        <div class="sector-card scroll-reveal" data-sector="tunnel" data-link="tunnel.html">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=1000&fit=crop"
+            alt="Tunnel Construction Sector" class="sector-bg">
+
+          <div class="sector-arrow">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </div>
+
+          <div class="sector-content">
+            <h3 class="sector-title">Tunnel Construction</h3>
+            <p class="sector-description">
+              Complex underground infrastructure development with cutting-edge
+              tunneling technology and safety protocols for major transit projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sectors section ends -->
+
+
+    <!-- Our Story Section -->
+    <section class="our-story-section scroll-reveal">
+      <div class="our-story-container">
+
+        <!-- Left Side - Text Content -->
+        <div class="story-text-content scroll-reveal">
+          <h2 class="story-heading">
+            <span class="heading-main">OUR STORY:</span>
+            <span class="heading-highlight">The Journey</span>
+            <span class="heading-highlight">of Building</span>
+            <span class="heading-highlight">Excellence</span>
+          </h2>
+
+          <p class="story-description">
+            Founded in 2009 with a vision to transform the construction landscape,
+            Dhansmruti Buildcon has grown from a small team to one of the region's
+            most trusted construction companies. With over 10 years of excellence
+            and 100+ successful projects, we continue to build landmarks that stand
+            the test of time — from residential complexes to commercial infrastructures.
+            Our mission is to deliver quality, create lasting value, and build a
+            better tomorrow.
+          </p>
+        </div>
+
+        <!-- Right Side - Image Grid with Badges -->
+        <div class="story-images-grid scroll-reveal">
+
+          <!-- Top Image with Badge -->
+          <div class="story-image-wrapper top-image">
+            <img src="images/blog-1.jpg" alt="Our Construction Team" class="story-img">
+            <div class="image-badge badge-top">
+              <div class="badge-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <span class="badge-text">Expert Team</span>
+            </div>
+          </div>
+
+          <!-- Bottom Left Image with Badge -->
+          <div class="story-image-wrapper bottom-left-image">
+            <img src="images/blog-2.jpg" alt="Construction Site" class="story-img">
+            <div class="image-badge badge-bottom">
+              <div class="badge-icon">
+                <i class="fas fa-award"></i>
+              </div>
+              <span class="badge-text">Premium Quality</span>
+            </div>
+          </div>
+
+          <!-- Bottom Right Image with Badge -->
+          <div class="story-image-wrapper bottom-right-image">
+            <img src="images/blog-3.jpg" alt="Completed Project" class="story-img">
+            <div class="image-badge badge-bottom">
+              <div class="badge-icon">
+                <i class="fas fa-building"></i>
+              </div>
+              <span class="badge-text">100+ Projects</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- our leader section starts -->
+    <section class="leader-section scroll-reveal">
+      <div class="container">
+        <!-- Header with Title and Navigation -->
+        <div class="section-header">
+          <h2 class="section-title">OUR LEADERS</h2>
+          <div class="slider-navigation">
+            <button class="slider-btn slider-prev" aria-label="Previous leader">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button class="slider-btn slider-next" aria-label="Next leader">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="leader-slider scroll-reveal">
+          <div class="leader-track">
+            <!-- Leader 1 -->
+            <div class="leader-slide">
+              <div class="leader-wrapper">
+                <!-- Left Side - Image -->
+                <div class="image-container">
+                  <div class="background-decoration">
+                    <!-- <div class="pillar pillar-1"></div>
+                                   <div class="pillar pillar-2"></div>
+                                   <div class="pillar pillar-3"></div> -->
+                  </div>
+                  <div class="image-wrapper">
+                    <img src="images/l1.jpg" alt="Harry Oliver - CEO of PowerLegal Law Firm" class="ceo-image">
+                    <div class="image-shadow"></div>
+                  </div>
+                </div>
+
+                <!-- Right Side - Content -->
+                <div class="content-container">
+                  <div class="content-wrapper">
+                    <p class="subtitle">FOUNDATION OF EXCELLENCE</p>
+
+                    <h1 class="main-heading">
+                      <span class="heading-line">A Passion For Justice.</span>
+                      <span class="heading-line">The Experience For Win.</span>
+                    </h1>
+
+                    <div class="description">
+                      <p class="description-text">
+                        At Dhansmruti Buildcon Pvt. Ltd., we believe in visionary leadership that drives growth,
+                        innovation, and excellence. Under the guidance of Mr. Sanjay Narayan Tatedeshmukh, our
+                        organization continues to expand its footprint across diverse industries, including
+                        construction, business services, and textile manufacturing.
+                      </p>
+
+                      <p class="description-text">
+                        With a strong entrepreneurial spirit and decades of experience, Mr. Tatedeshmukh fosters a
+                        culture of integrity, innovation, and progress. His leadership encourages every team member to
+                        strive for excellence while contributing to the company’s long-term vision of creating
+                        sustainable and impactful developments.
+                      </p>
+                    </div>
+
+                    <div class="cta-section">
+                      <p class="cta-text">Let's start Building together.</p>
+
+                      <div class="contact-info">
+
+                        <a href="contact.html" class="book-appointment">Book Appointment</a>
+                      </div>
+                    </div>
+
+                    <div class="signature-section">
+                      <!-- <div class="signature-image">
+                                           <svg viewBox="0 0 200 80" class="signature-svg">
+                                               <path d="M25,45 Q35,25 55,50 T85,48 Q95,38 105,52 T135,50" 
+                                                     stroke="currentColor" 
+                                                     fill="none" 
+                                                     stroke-width="2"
+                                                     stroke-linecap="round"/>
+                                           </svg>
+                                       </div> -->
+                      <div class="signature-info">
+                        <p class="signature-name">SANJAY NARAYAN TATEDESHMUKH</p>
+                        <p class="signature-title">(Director, Dhansmruti Buildcon Pvt. Ltd.)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Leader 2 -->
+            <div class="leader-slide">
+              <div class="leader-wrapper">
+                <div class="image-container">
+                  <div class="background-decoration">
+                    <!-- <div class="pillar pillar-1"></div>
+                                   <div class="pillar pillar-2"></div>
+                                   <div class="pillar pillar-3"></div> -->
+                  </div>
+                  <div class="image-wrapper">
+                    <img src="images/l2.jpg" alt="Sarah Mitchell - Managing Partner" class="ceo-image">
+                    <div class="image-shadow"></div>
+                  </div>
+                </div>
+
+                <div class="content-container">
+                  <div class="content-wrapper">
+                    <p class="subtitle">FOUNDATION OF EXCELLENCE</p>
+
+                    <h1 class="main-heading">
+                      <span class="heading-line">Leading With Integrity.</span>
+                      <span class="heading-line">Delivering Results.</span>
+                    </h1>
+
+                    <div class="description">
+                      <p class="description-text">
+                        At Dhansmruti Buildcon Pvt. Ltd., Mr. Narayan Bhagwan Tatedeshmukh stands as the visionary
+                        leader and driving force behind the company’s foundation and growth. With a forward-thinking
+                        mindset and decades of experience across business services, construction, and textile
+                        manufacturing, he has successfully built an organization rooted in trust, innovation, and
+                        excellence.
+                      </p>
+
+                      <p class="description-text">
+                        Under his leadership, Dhansmruti Buildcon has evolved from a promising idea into a respected
+                        name in the construction and infrastructure sector. His commitment to quality, discipline, and
+                        sustainable development continues to inspire the team and shape the company’s long-term vision.
+                      </p>
+                    </div>
+
+                    <div class="cta-section">
+                      <p class="cta-text">Guided by vision, driven by purpose.</p>
+
+                      <div class="contact-info">
+
+                        <a href="contact.html" class="book-appointment">Book Appointment</a>
+                      </div>
+                    </div>
+
+                    <div class="signature-section">
+                      <!-- <div class="signature-image">
+                                           <svg viewBox="0 0 200 80" class="signature-svg">
+                                               <path d="M25,45 Q35,25 55,50 T85,48 Q95,38 105,52 T135,50" 
+                                                     stroke="currentColor" 
+                                                     fill="none" 
+                                                     stroke-width="2"
+                                                     stroke-linecap="round"/>
+                                           </svg>
+                                       </div> -->
+                      <div class="signature-info">
+                        <p class="signature-name">NARAYAN BHAGWAN TATEDESHMUKH</p>
+                        <p class="signature-title">(Founder & Director, Dhansmruti Buildcon Pvt. Ltd.)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <!-- Slide Indicators -->
+        <div class="slider-indicators">
+          <button class="indicator active" data-slide="0" aria-label="Go to leader 1"></button>
+          <button class="indicator" data-slide="1" aria-label="Go to leader 2"></button>
+          <!-- <button class="indicator" data-slide="2" aria-label="Go to leader 3"></button>
+           </div> -->
+        </div>
+    </section>
+    <!-- our leader section ends -->
+
+
+    <!-- CEO Letter Section -->
+    <section class="ceo-letter-section scroll-reveal">
+      <div class="ceo-letter-container">
+
+        <!-- Left Content -->
+        <div class="ceo-content scroll-reveal">
+          <h2 class="ceo-heading">
+            A letter from our<br>
+            <span class="ceo-title-highlight">Founder</span>
+          </h2>
+
+          <p class="ceo-description">
+            Read about our team's commitment to deliver exceptional construction
+            projects with integrity, innovation, and excellence. Discover how we've
+            built lasting relationships and iconic structures over the past decade.
+          </p>
+
+          <a href="about.html" class="ceo-letter-btn">
+            <span class="btn-text">Read founder's letter</span>
+            <span class="btn-arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="ceo-image-wrapper scroll-reveal">
+          <div class="image-overlay"></div>
+          <img src="images/blog-4.jpg" alt="Dhansmruti Buildcon Founder" class="ceo-img">
+
+          <!-- Optional: Decorative Elements -->
+          <div class="image-accent"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+    <section class="map-section scroll-reveal">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <p class="section-title">OUR PRESENCE</p>
+          <h2 class="section-subtitle">Project Locations Across Maharashtra</h2>
+          <p class="section-description">
+            Explore our construction projects spanning across multiple districts in Maharashtra.
+            Each pin represents our commitment to excellence and quality infrastructure development.
+          </p>
+        </div>
+
+        <!-- Map Container -->
+        <div class="map-container scroll-reveal">
+          <div class="map-header">
+            <div class="map-title">
+              <!-- <a href="#" class="logo">
+                            <img src="images/logo.png" alt="Dhansruti Group Logo">
+                        </a> -->
+
+              <span>Dhansmruti Buildcon Pvt Ltd</span>
+            </div>
+            <div class="map-actions">
+              <button class="map-button" onclick="openFullscreen()">
+                <span class="map-button-icon">⛶</span>
+                <span>Fullscreen</span>
+              </button>
+              <button class="map-button" onclick="refreshMap()">
+                <span class="map-button-icon">↻</span>
+                <span>Refresh</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="map-iframe-wrapper" id="mapWrapper">
+            <!-- Loading Overlay -->
+            <div class="loading-overlay" id="loadingOverlay">
+              <div class="loading-spinner"></div>
+              <p class="loading-text">Loading map...</p>
+            </div>
+
+            <!-- Proxi Map Iframe -->
+            <iframe id="mapIframe" class="map-iframe" src="https://map.proxi.co/r/kff34ZZA5enwFx3oXMBO"
+              allow="geolocation; clipboard-write" allowfullscreen loading="lazy" onload="hideLoading()">
+            </iframe>
+
+
+            <!-- stats section starts -->
+            <div class="stats-bar scroll-reveal">
+              <div class="stat-item">
+                <h3 data-target="10">0</h3>
+                <p>Years Experience</p>
+              </div>
+              <div class="stat-item">
+                <h3 data-target="100">0</h3>
+                <p>Projects </p>
+              </div>
+              <div class="stat-item">
+                <h3 data-target="500">0</h3>
+                <p>Clients</p>
+              </div>
+              <div class="stat-item">
+                <h3 data-target="50">0</h3>
+                <p>Team Members</p>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+            
+    </section>
+
+
+
+
+
+
+
+
+    <!--foooter start-->
+
+    <footer class="footer">
+      <div class="skyline-wrapper">
+        <img src="images/Untitled design_imgupscaler.ai_General_4K.png" alt="Footer Design" class="skyline-img">
+      </div>
+
+      <div class="footer-main">
+
+        <div class="footer-col contact">
+          <h4>Contact info</h4>
+          <div class="divider"></div>
+          <p class="footer-label">Address</p>
+          <p>Second Floor, World Trade Centre , Kharadi , Pune - 411014</p>
+          <p class="footer-label">Phone</p>
+          <p>+91-11-26191164</p>
+          <p>+91-11-26100285</p>
+          <p class="footer-label">Email</p>
+          <p>naredco@naredco.in</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-col links">
+          <h4>Quick Links</h4>
+          <div class="divider"></div>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col ministries">
+          <h4>All Ministries</h4>
+          <div class="divider"></div>
+          <ul>
+            <li><a href="#">Ministry of Housing and Urban Affairs</a></li>
+            <li><a href="#">Planning Commission of India</a></li>
+            <li><a href="#">Income Tax Department of India</a></li>
+            <li><a href="#">Department of Industrial Policy and Promotion</a></li>
+            <li><a href="#">Government of India National Portal</a></li>
+            <li><a href="#">Government of India Directory</a></li>
+            <li><a href="#">Central Board of Excise and Customs</a></li>
+            <li><a href="#">Directorate of Service Tax, Ministry of Finance, Govt. Of India</a></li>
+            <li><a href="#">PMO Office</a></li>
+            <li><a href="#">Ministry of Civil Aviation</a></li>
+            <li><a href="#">RERA</a></li>
+            <li><a href="#">Ministry of Environment</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </footer>
+    <!--footer end -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/common.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+</body>
+
+</html>

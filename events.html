@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/event.css">
+</head>
+
+<body>
+
+  <!-- ============================================
+     PAGE LOADER
+     ============================================ -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-logo">
+        <img src="images/logo.png" alt="Dhansruti Group Logo">
+      </div>
+      <div class="loader-line">
+        <div class="loader-line-progress"></div>
+      </div>
+      <div class="loader-text">Loading ...</div>
+    </div>
+  </div>
+
+  <!-- ============================================
+     NAVIGATION
+     ============================================ -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Dhansruti Group Logo">
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="projects.html" class="nav-link">Projects</a></li>
+        <li><a href="careers.html" class="nav-link">Careers</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="events.html" class="nav-link active">Events</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================
+     HERO SECTION
+     ============================================ -->
+  <section class="events-hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-subtitle">Celebrating Excellence</div>
+      <h1 class="hero-title">
+        <span class="title-line">Events &</span>
+        <span class="title-line">Achivements</span>
+      </h1>
+      <div class="hero-bar"></div>
+      <p class="hero-description">
+        Moments that define our journey towards excellence
+      </p>
+    </div>
+
+  </section>
+
+
+
+  <!-- ============================================
+     MAIN EVENT SHOWCASE
+     ============================================ -->
+  <section class="event-showcase" id="mainPage">
+    <div class="container">
+      <!-- Event Header -->
+      <div class="event-header">
+        <div class="event-date">
+          <div class="date-day">27</div>
+          <div class="date-month">APR</div>
+          <div class="date-year">2023</div>
+        </div>
+        <div class="event-info">
+          <h2 class="event-title">Leaders Awards 2022–23</h2>
+          <div class="event-meta">
+            <span class="meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              Sheraton Grand Pune, Bund Garden Hotel
+            </span>
+            <span class="meta-separator">|</span>
+            <span class="meta-item">
+              <i class="fas fa-calendar-alt"></i>
+              April 27, 2023
+            </span>
+          </div>
+          <p class="event-description">
+            A prestigious evening celebrating excellence in real estate development,
+            recognizing industry leaders and innovative projects that shape our cities.
+            A prestigious evening celebrating excellence in real estate development,
+            recognizing industry leaders and innovative projects that shape our cities.
+          </p>
+        </div>
+      </div>
+
+      <!-- Image Slider -->
+      <div class="slider-container">
+        <div class="slider-track" id="sliderTrack">
+          <button class="slider-nav prev" id="sliderPrev" aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+
+          <div class="slider-viewport" id="slider">
+            <img src="/DhansmrutiBuildconPvtLtc_MAIN/construction-website-main/images/events/event1.jpg"
+              alt="Event Image" class="slider-img" />
+            <img src="/DhansmrutiBuildconPvtLtc_MAIN/construction-website-main/images/events/event2.jpg"
+              class="slider-img" />
+            <img src="/DhansmrutiBuildconPvtLtc_MAIN/construction-website-main/images/events/event3.jpg"
+              alt="Event Image" class="slider-img" />
+            <img src="/DhansmrutiBuildconPvtLtc_MAIN/construction-website-main/images/events/event4.jpg"
+              alt="Event Image" class="slider-img" />
+            <img src="/DhansmrutiBuildconPvtLtc_MAIN/construction-website-main/images/events/event5.jpg"
+              alt="Event Image" class="slider-img" />
+
+          </div>
+
+          <button class="slider-nav next" id="sliderNext" aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+
+        <!-- <div class="slider-controls">
+        <div class="slider-pagination" id="sliderPagination">1 of 24</div>
+        <button class="view-all-btn" id="viewAllBtn">
+          <span>View All Images</span>
+          <i class="fas fa-th"></i>
+        </button>
+      </div> -->
+      </div>
+
+
+  </section>
+
+
+  <!-- ============================================
+     UPCOMING EVENTS TEASER
+     ============================================ -->
+  <section class="upcoming-events">
+    <div class="container">
+      <div class="upcoming-header">
+        <h2 class="section-title">More Events Coming Soon</h2>
+        <p class="section-subtitle">Stay tuned for upcoming celebrations and milestones</p>
+      </div>
+      <div class="upcoming-grid">
+        <div class="upcoming-card">
+          <div class="upcoming-image">
+            <img src="images/events/event1.jpg" alt="Upcoming Event">
+            <div class="upcoming-badge">Coming Soon</div>
+          </div>
+          <div class="upcoming-content">
+            <h3>Annual Awards Ceremony 2024</h3>
+            <p>Date to be announced</p>
+          </div>
+        </div>
+        <div class="upcoming-card">
+          <div class="upcoming-image">
+            <img src="images/events/event2.jpg" alt="Upcoming Event">
+            <div class="upcoming-badge">Coming Soon</div>
+          </div>
+          <div class="upcoming-content">
+            <h3>Project Launch Event</h3>
+            <p>Date to be announced</p>
+          </div>
+        </div>
+        <div class="upcoming-card">
+          <div class="upcoming-image">
+            <img src="images/events/event3.jpg" alt="Upcoming Event">
+            <div class="upcoming-badge">Coming Soon</div>
+          </div>
+          <div class="upcoming-content">
+            <h3>Industry Summit 2024</h3>
+            <p>Date to be announced</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+     FOOTER
+     ============================================ -->
+  <footer class="footer">
+    <div class="skyline-wrapper">
+      <img src="images/Untitled design_imgupscaler.ai_General_4K.png" alt="Footer Design" class="skyline-img">
+    </div>
+
+    <div class="footer-main">
+
+      <div class="footer-col contact">
+        <h4>Contact info</h4>
+        <div class="divider"></div>
+        <p class="footer-label">Address</p>
+        <p>Second Floor, World Trade Centre , Kharadi , Pune - 411014</p>
+        <p class="footer-label">Phone</p>
+        <p>+91-11-26191164</p>
+        <p>+91-11-26100285</p>
+        <p class="footer-label">Email</p>
+        <p>naredco@naredco.in</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col links">
+        <h4>Quick Links</h4>
+        <div class="divider"></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="awards.html">Awards</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col ministries">
+        <h4>All Ministries</h4>
+        <div class="divider"></div>
+        <ul>
+          <li><a href="#">Ministry of Housing and Urban Affairs</a></li>
+          <li><a href="#">Planning Commission of India</a></li>
+          <li><a href="#">Income Tax Department of India</a></li>
+          <li><a href="#">Department of Industrial Policy and Promotion</a></li>
+          <li><a href="#">Government of India National Portal</a></li>
+          <li><a href="#">Government of India Directory</a></li>
+          <li><a href="#">Central Board of Excise and Customs</a></li>
+          <li><a href="#">Directorate of Service Tax, Ministry of Finance, Govt. Of India</a></li>
+          <li><a href="#">PMO Office</a></li>
+          <li><a href="#">Ministry of Civil Aviation</a></li>
+          <li><a href="#">RERA</a></li>
+          <li><a href="#">Ministry of Environment</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </footer>
+  <!-- ============================================
+     SCRIPTS
+     ============================================ -->
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Custom Scripts -->
+  <script src="js/common.js"></script>
+  <script src="js/event.js"></script>
+
+</body>
+
+</html>
