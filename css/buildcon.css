@@ -696,9 +696,9 @@ body {
 }
 
 .section-description {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     line-height: 1.8;
-    color: var(--color-text-light);
+    color: black;
     margin-bottom: 3rem;
 }
 
