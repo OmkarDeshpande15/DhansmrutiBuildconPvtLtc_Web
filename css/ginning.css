@@ -696,9 +696,9 @@ body {
 }
 
 .section-description {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     line-height: 1.8;
-    color: var(--color-text-light);
+    color: black;
     margin-bottom: 3rem;
 }
 
@@ -1311,57 +1311,64 @@ body {
 /* ===================== WHO I AM SECTION ===================== */
 
 .who-section {
-    padding: 120px 8%;
-    background: #ffffff;
-    font-family: 'Playfair Display', serif;
-  }
-  
-  .who-container {
-    max-width: 1400px;
-    margin: 0 auto;
-  
-    display: grid;
-    grid-template-columns: 1fr 1.2fr;
-    gap: 6rem;
-    align-items: start;
-  }
-  
-  /* LEFT SIDE */
-  
-  .who-left .who-tag {
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #f59e0b; /* accent */
-    letter-spacing: 0.08em;
-    margin-bottom: 1rem;
-  }
-  
-  .who-left h2 {
-    font-size: clamp(2.5rem, 4vw, 4rem);
-    font-weight: 700;
-    line-height: 1.15;
-    color: #111827;
-  }
-  
-  /* RIGHT SIDE */
-  
-  .who-right h3 {
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1.5;
-    color: #111827;
-    margin-bottom: 2rem;
-  }
-  
-  .who-right p {
-    font-size: 1rem;
-    line-height: 1.9;
-    color: #4b5563;
-    margin-bottom: 1.6rem;
-    max-width: 600px;
-    text-align: justify;
-  }
+  padding: 50px 8%;
+  background: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.who-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1.2fr;
+  gap: 0rem;
+  align-items: start;
+}
+
+/* LEFT SIDE */
+
+.who-left .who-tag {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(244, 103, 21); /* accent */
+  /* letter-spacing: 0.08em; */
+  margin-bottom: 1.5rem;
+}
+.who-left h1{
+  font-family: 'Playfair Display', 'Georgia', serif;
+
+}
+.who-left h2 {
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-weight: 700;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  line-height: 1.15;
+  color: #111827;
+}
+
+/* RIGHT SIDE */
+
+.who-right h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #111827;
+  align-content: justify;
+  margin-bottom: 2rem;
+}
+
+.who-right p {
+  font-size: 1rem;
+  line-height: 2;
+  color: #000000;
+  margin-bottom: 1.6rem;
+  max-width: 600px;
+  text-align: justify;
+}
   
   /* ===================== RESPONSIVE ===================== */
   
